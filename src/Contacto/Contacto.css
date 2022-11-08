@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fafafa;
+}
+body
+{
+    background-color: #233142;
+
+}
+.contactos
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px; ;
+    background-color: #f70776;
+    margin: 20px;
+}
+.contactos:hover
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px; ;
+    background-color: #680747;
+    margin: 20px;
+}
+button
+{
+    background-color: #141010;
+    color: #fafafa;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+button:hover
+{
+    background-color: #fafafa;
+    color: #233142;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+.contenedor
+{
+   background-color: #680747;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.contenedor input
+{
+    color: #233142;
+    display: flex;
+    border-radius:5px;
+    width: 200px;
+    height: 40px;
+}
+
+.contenedordeamigos
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.agregarAmigo
+{
+    position: relative;
+    left:45vw;
+
+    
+}
