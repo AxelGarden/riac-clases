@@ -12,6 +12,8 @@ body
 }
 .contactos
 {
+    position: relative;
+    top: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -34,8 +36,10 @@ body
     background-color: #680747;
     margin: 20px;
 }
-button
+.agregarAmigobtn
 {
+    position: fixed;
+    left: 46vw;
     background-color: #141010;
     color: #fafafa;
     border-radius: 6px;
@@ -44,7 +48,7 @@ button
     border: none;
 }
 
-button:hover
+.agregarAmigobtn:hover
 {
     background-color: #fafafa;
     color: #233142;
@@ -84,3 +88,4 @@ button:hover
 
     
 }
+

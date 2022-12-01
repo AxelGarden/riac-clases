@@ -4,16 +4,14 @@ import {ContactoContext} from "./../Context/ContactoProvider";
 
 function AgregarAmigo(params)
 {
+    let {setModal}=React.useContext(ContactoContext);
     const abreModal=()=>
     {
-        console.log("si jalo");
+        console.log("entro");
+        setModal(true);
     }
     return(
-        <React.Fragment>
-        <button className="agregarAmigo" onClick={abreModal}>+ Amigo</button>
-        
-        </React.Fragment>
-    );
+        <button className="agregarAmigobtn" onClick={abreModal}>+ Amigo</button>);
 
     
 
